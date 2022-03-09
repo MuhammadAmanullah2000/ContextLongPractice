@@ -6,8 +6,6 @@ function bindToAnArg(func, arg) {
   // Your code here
   // const answer = func.bind(arg);
   // console.log(answer());
-  debugger;
-  console.log(this);
   return func.bind(this, arg); 
 }
 
